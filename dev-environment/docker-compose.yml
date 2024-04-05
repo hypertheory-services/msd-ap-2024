@@ -1,15 +1,4 @@
 services:
-  software-center:
-    image: jeffrygonzalez/software-center:v0.2
-    depends_on:
-      - db
-      - kafka
-    ports:
-      - 1337:8080
-    environment:
-      - ConnectionStrings__data=Server=db;Database=software;User Id=user;Password=password
-      - ConnectionStrings__kafka=kafka
-  # Postgres database
   db:
     image: postgres:15.2-bullseye
     restart: always

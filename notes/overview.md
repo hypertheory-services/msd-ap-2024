@@ -1,5 +1,6 @@
 # Microservice Development
 
+
 ## Day 1
 
 ### Service Relationships
@@ -18,3 +19,12 @@
     - Pub/Sub
     - Queues
     - Event Streaming
+
+## Day 3
+
+### Complete Stuff From Day 2
+### Messaging Patterns Explored
+- ACL
+- Aggregates
+- Schema Versioning
+
